@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Juego de los Dados No Transitivos</title>
+    <link rel="stylesheet" type="text/css" href="dados.css">
+    <!-- Usamos Google Fonts (Motivo: estilo) -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Righteous">
+    <!-- Ponemos un favicon para la página -->
+    <link rel="icon" type="image/x-icon" href="img/dice.ico">
+</head>
+<body>
+	<h1>Juego de los Dados No Transitivos</h1>
+    <button id="btnEmpezarPartida">Empezar Partida</button>
+
+    <span id="mensajesDelJuego"></span>
+
+    <h2 id="tituloEscogeDado">Escoge un Dado</h2>
+
+    <table id="tablaBotonesDados">
+        <tr>
+            <td><button id="dadoRojo">Dado Rojo</button></td>
+            <td><button id="dadoAzul">Dado Azul</button></td>
+            <td><button id="dadoVerde">Dado Verde</button></td>
+            <td><button id="dadoNaranja">Dado Naranja</button></td>
+        </tr>
+    </table>
+
+    <img id="tapete" src="img/tapeteJuego.png" alt="Tapete de juego" width="40%">
+
+    <button id="btnLanzarDado">Lanzar Dado</button>
+
+    <table id="tablaDados">
+        <tr>
+            <td id="dadoOrdenador"><span id="resultadoTiradaOrdenador">0</span></td>
+            <td id="dadoJugador"><span id="resultadoTiradaJugador">0</span></td>
+        </tr>
+            <td class="textoTablaDados">Ordenador</td>
+            <td class="textoTablaDados">Jugador</td>
+    </table>
+
+    <span id="mensajesPartida"></span>
+
+    <button id="btnReiniciarPartida">Reiniciar Partida</button>
+    <!-- Lo ponemos abajo para acceder a los elementos ya cargados -->
+    <script type="text/javascript" src="dados.js"></script>
+</body>
+</html>

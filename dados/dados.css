@@ -1,0 +1,76 @@
+body {
+    font-family: "Righteous", sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#mensajesDelJuego {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#btnEmpezarPartida {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#tablaBotonesDados {
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#btnLanzarDado {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#btnReiniciarPartida {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#tablaDados {
+    margin: auto;
+    margin-top: 100px;
+}
+
+#resultadoTiradaJugador {
+    padding: 50px;
+    font-size: 100px;
+    color: white;
+    background-color: red;
+}
+
+#resultadoTiradaOrdenador {
+    padding: 50px;
+    font-size: 100px;
+    color: white;
+    background-color: blue;
+}
+
+.textoTablaDados{
+    padding: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#mensajesPartida{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
